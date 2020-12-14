@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=hi
+Version=v0.1.0
+#Icon=pupil-capture
+#X-Icon-Path=/path/to/icon/file/
+Exec=gksudo python /mnt/Save/Notebooks/Code/py/hi.py
+Terminal=true
+Type=Application

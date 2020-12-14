@@ -1,0 +1,60 @@
+struct data
+{
+int x;
+int y;
+int z;
+int w;
+};
+
+struct database
+{
+int size;
+struct data ** ptr;
+};
+int add_data(int a,int b, struct database *db)
+{
+
+	struct data *d=malloc(sizeof(struct data));
+	d->x=a;d->y=b; d->z=0;d->w=db->size;
+	db->ptr=realloc(db->ptr,(1+db->size)*sizeof(struct data *));
+	db->size++;
+	return 0;
+}
+void print_data(struct data * d)
+{
+	A;
+	printf("[%d , %d , %d , %d]\n",d->x,d->y,d->z,d->w);
+}
+
+struct dy_int_array
+{
+int size;
+int *ptr;
+};
+void add_to_array(struct dy_int_array *da,int d)
+{
+	da->ptr=realloc(da->ptr,(1+da->size)*sizeof(int));
+	da->ptr[da->size]=d;
+	da->size++;
+}
+void test()
+{
+struct dy_int_array da;
+da.size=0;da.ptr=NULL;
+//add_to_array(&da,33);
+char c[20];
+int temp=0;
+for (int i=0;i<30;i++)
+{
+	scanf("%d",&temp);
+	if (temp<0) break;
+	add_to_array(&da,temp);
+
+}
+printf("Array size = %d\n",sizeof(da));
+printf("Array pinter size = %d\n",sizeof(da.ptr));
+for (int i=0;i<da.size;i++)
+pi(da.ptr[i]);
+
+}
+

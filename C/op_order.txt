@@ -1,0 +1,15 @@
+Arithmatic *,/,%,+,-     
+Relational Operators: >,<,>=,<=,==,!=
+Logical operator: !,&&, ||
+Assignment operator: = right to left
+
+(++,- - suffix) , ( ) , [ ] , . , -> , (type)   ////left-to-right
+(++, - - perfix) ,(+, - Unary plus and minus) , !~ , * , & (adress) , sizeof, _Alignof  ///// right-to-left
+
+Left-to-right ### //+- this is the correct order
+* , / , %,  + , - , << , >> , <, <= ,> ,>= , == ,!= , & B-and , ^ , | , &&, || , ?:
+
+right-to-left
+=, += , -= , *= , /= , %= , <<= , >>= , &= , ^= , |=
+
+, comma left to right

@@ -1,0 +1,22 @@
+--select * from shoes order by 2 DESC,1 DESC;
+
+
+/*
+Select
+From
+Where
+Group by
+Having
+Order by
+*/
+
+/*albums          employees       invoices        playlists     
+artists         genres          media_types     tracks        
+customers       invoice_items   playlist_track
+*/
+SELECT * FROM Tracks
+Where MediaTypeID=1
+Union
+SELECT * FROM media_types
+Where MediaTypeID=1
+LIMIT 5;

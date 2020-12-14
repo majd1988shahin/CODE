@@ -1,0 +1,26 @@
+--select * from shoes order by 2 DESC,1 DESC;
+
+
+/*
+Select
+From
+Where
+Group by
+Having
+Order by
+*/
+
+/*albums          employees       invoices        playlists     
+artists         genres          media_types     tracks        
+customers       invoice_items   playlist_track
+*/
+/*SELECT *
+from tracks inner join media_types 
+On tracks.mediatypeid=media_types.mediatypeid
+where tracks.mediatypeid=2
+limit 3;
+*/
+SELECT t.NAME, m.Name,a.Title
+FROM((tracks t INNER JOIN media_types m ON t.MediaTypeID=m.MediaTypeID)
+INNER Join albums a on t.AlbumID=a.AlbumID)
+LIMIT 5;

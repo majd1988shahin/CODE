@@ -1,0 +1,27 @@
+--select * from shoes order by 2 DESC,1 DESC;
+select COUNT(DISTINCT name) as Nshoes from shoes;
+
+/*
+Select
+From
+Where
+Group by
+Having
+Order by
+*/
+
+
+
+SetID
+Job_Code
+Eff_Date
+Sal_End_Date
+Salary_setID
+Sal_Plan
+Grade
+Step
+Biweekly_High_Rate
+Biweekly_Low_Rate
+Union_Code
+Extended_Step
+Pay_Type
