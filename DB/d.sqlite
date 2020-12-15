@@ -1,0 +1,18 @@
+--select * from shoes order by 2 DESC,1 DESC;
+
+
+/*
+Select
+From
+Where
+Group by
+Having
+Order by
+*/
+
+/*albums          employees       invoices        playlists     
+artists         genres          media_types     tracks        
+customers       invoice_items   playlist_track
+*/
+
+Select alb.title ,tr.name from albums as alb left join tracks as tr on alb.albumid=tr.albumid ;

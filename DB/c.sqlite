@@ -20,19 +20,19 @@ customers       invoice_items   playlist_track
 SELECT count(*)
 FROM Albums al inner join Artists ar On al.ArtistID=ar.ArtistID
 where ar.Name="Led Zeppelin"
-
+;
 --Create a list of album titles and the unit prices for the artist "Audioslave".
 
 SELECT al.title,tr.Unitprice
 FROM ((albums al inner join tracks tr on al.AlbumID=tr.AlbumID) inner join artists ar on al.artistID=ar.ArtistID)
-Where ar.Name="Audioslave"
+Where ar.Name="Audioslave";
 
 
 
 --Find the first and last name of any customer who does not have an invoice. 
 SELECT c.FirstName,c.LastName
 FROM customers c LEFT join invoices i on c.customerID=i.customerID
-WHERE i.customerID is NULL
+WHERE i.customerID is NULL;
 
 
 
@@ -41,7 +41,7 @@ WHERE i.customerID is NULL
 --Find the total price for each album.
 SELECT al.Title,SUM(tr.UnitPrice)
 From tracks tr left join Albums al on tr.AlbumID=al.AlbumID
-Group by al.Title
+Group by al.Title;
 
 
 --How many records are created when you apply a Cartesian join to the invoice and invoice items table?

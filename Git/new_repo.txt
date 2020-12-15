@@ -1,0 +1,22 @@
+mkdir hi
+cd hi
+
+#### creat repo hi in gtihub !!!!
+echo "# hi" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M master
+git remote add origin https://github.com/majd1988shahin/hi.git
+git push -u origin master
+
+#####
+  git config --global user.email majd1988shahin@hotmail.com
+
+  git config --global user.name majd1988shahin
+
+###  
+
+
+  
+  
