@@ -1,0 +1,1 @@
+cmd_/mnt/AC36685336682096/Code/C/lkm_example/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /mnt/AC36685336682096/Code/C/lkm_example/hello.ko /mnt/AC36685336682096/Code/C/lkm_example/hello.o /mnt/AC36685336682096/Code/C/lkm_example/hello.mod.o;  true
