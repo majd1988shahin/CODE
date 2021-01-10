@@ -1,0 +1,13 @@
+Package: myappdebian-dbgsym
+Package-Type: ddeb
+Source: myappdebian
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: majd <majd@unknown>
+Installed-Size: 18
+Depends: myappdebian (= 1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for myappdebian
+Build-Ids: dceec3de52259ea6d099740f071ec8d604704dcf

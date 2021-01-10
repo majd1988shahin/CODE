@@ -1,0 +1,11 @@
+Package: debtest
+Version: 1.0-1
+Architecture: amd64
+Maintainer: majd <majd@unknown>
+Installed-Size: 26
+Depends: libc6 (>= 2.3.4)
+Section: unknown
+Priority: optional
+Homepage: <insert the upstream URL, if relevant>
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

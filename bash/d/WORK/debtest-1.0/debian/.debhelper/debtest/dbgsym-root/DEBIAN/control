@@ -1,0 +1,13 @@
+Package: debtest-dbgsym
+Package-Type: ddeb
+Source: debtest
+Version: 1.0-1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: majd <majd@unknown>
+Installed-Size: 18
+Depends: debtest (= 1.0-1)
+Section: debug
+Priority: optional
+Description: debug symbols for debtest
+Build-Ids: 440c0eb53caef064bb9f1104e439f3c0303d3dbb

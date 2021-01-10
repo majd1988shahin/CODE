@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sat, 09 Jan 2021 00:57:17 +0100
+Source: myappdebian
+Binary: myappdebian
+Architecture: source amd64
+Version: 1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: majd <majd@unknown>
+Changed-By: majd <majd@unknown>
+Description:
+ myappdebian - <insert up to 60 chars description>
+Changes:
+ myappdebian (1.0-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 954a40fd07de93cb338f17ac6d57f15843d726ab 827 myappdebian_1.0-1.dsc
+ 4fd10cc58d12c5484db7740b5b5d08a9b909754e 516 myappdebian_1.0.orig.tar.gz
+ 25b7c3134a3feb34f9273e695649f84edaf488a9 7848 myappdebian_1.0-1.debian.tar.xz
+ 58aa87dd81a85584b287f5c2f63265f0463eff39 3972 myappdebian-dbgsym_1.0-1_amd64.ddeb
+ b8476404e4d450b7272b1733823b501ceb63805f 5857 myappdebian_1.0-1_amd64.buildinfo
+ df7c08f8e12633c7579514163dd083857d0f16e5 4044 myappdebian_1.0-1_amd64.deb
+Checksums-Sha256:
+ 26a337e0d824f5cd560cde3181032e0e3ef6d223317da0b4e1f8fcd4c4dcb24a 827 myappdebian_1.0-1.dsc
+ 31c2a5ce651bccd8593bfc9560b21f90c4d65d15d46d0a1e567557820bc7e6de 516 myappdebian_1.0.orig.tar.gz
+ ab10b9b77bee05bc752fccfc8254f9550235c103bdd0a21f4f4dcf385eb52977 7848 myappdebian_1.0-1.debian.tar.xz
+ 8b9abb7f0b4c22d880e09ceac04ab1e85db399de55c0ce30ea0b1e5f35cb9206 3972 myappdebian-dbgsym_1.0-1_amd64.ddeb
+ 579b66938d0528896d23e92923737f4d470ecdb05c49a755c07e3753a0a898cb 5857 myappdebian_1.0-1_amd64.buildinfo
+ ba38258127d06b8207b8fe749d1d483c1e20d1c090e1386cce5ce3523d1e94a8 4044 myappdebian_1.0-1_amd64.deb
+Files:
+ 2edc05a1fe02617964fbf5e4c385b004 827 unknown optional myappdebian_1.0-1.dsc
+ 4839006b9b9a30cb8aa1171f0fd1787a 516 unknown optional myappdebian_1.0.orig.tar.gz
+ ee8a7c25735d0d90f562d56cea48638f 7848 unknown optional myappdebian_1.0-1.debian.tar.xz
+ 8d7defc312e5a05fa4cd89685848d2d4 3972 debug optional myappdebian-dbgsym_1.0-1_amd64.ddeb
+ 57b1173a7a50c90f1854ea7adb51552a 5857 unknown optional myappdebian_1.0-1_amd64.buildinfo
+ 67b0ff42cebb3eadd289a58a27a73d08 4044 unknown optional myappdebian_1.0-1_amd64.deb

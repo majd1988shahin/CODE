@@ -1,0 +1,37 @@
+Format: 1.8
+Date: Sat, 09 Jan 2021 01:27:08 +0100
+Source: debtest
+Binary: debtest
+Architecture: source amd64
+Version: 1.0-1
+Distribution: unstable
+Urgency: medium
+Maintainer: majd <majd@unknown>
+Changed-By: majd <majd@unknown>
+Description:
+ debtest    - <insert up to 60 chars description>
+Changes:
+ debtest (1.0-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 93f879362dc95f4e6138d66b27936d6508fc47e4 791 debtest_1.0-1.dsc
+ dad263a1ce00f1c8f73aef69307e55693c2aa609 518 debtest_1.0.orig.tar.gz
+ 4f43083a5f99c6099bed6c3cb4942317a0d6e405 7872 debtest_1.0-1.debian.tar.xz
+ 232e1a80f364585225408735caba71682d779946 3984 debtest-dbgsym_1.0-1_amd64.ddeb
+ f9c4255f7a8f6b4d3cf3d4d06179cad9f91f7794 5813 debtest_1.0-1_amd64.buildinfo
+ 2842ec753e8a79f8642627383b42f72acfa76655 4036 debtest_1.0-1_amd64.deb
+Checksums-Sha256:
+ 16e1cb19900eed6037d47fe71ea83d7849730a36d3639d560b3f22f787684330 791 debtest_1.0-1.dsc
+ dead10ff2f6569cca11c12ef270463f6ace23ac285890356adc9dfbe15a8abe2 518 debtest_1.0.orig.tar.gz
+ b4a7824e1d18395d2aa7ca6a723f3adad57e899745c2431cf3ccf4819d0ca873 7872 debtest_1.0-1.debian.tar.xz
+ d20d833fc537b8632fad010bb91583c2c84eb192057947c4a0ac810462400882 3984 debtest-dbgsym_1.0-1_amd64.ddeb
+ 4fb550cbbc47245236231d6bbf003094ab0bc6e43c07c69bebc9bab2cd93d44c 5813 debtest_1.0-1_amd64.buildinfo
+ 8eea7ded294994a2a194d2e40343bfb0cd2cccbe31834848bef29baf56694d04 4036 debtest_1.0-1_amd64.deb
+Files:
+ c22a090a4daf1b663165a2ce2ac3d819 791 unknown optional debtest_1.0-1.dsc
+ e4f2ae18431a3b70ab4601c6535a1578 518 unknown optional debtest_1.0.orig.tar.gz
+ e9c5398bdeffea5104a8933fae8458c2 7872 unknown optional debtest_1.0-1.debian.tar.xz
+ be461d7065e01e4db144ce6f0849c5c0 3984 debug optional debtest-dbgsym_1.0-1_amd64.ddeb
+ 4d6d8cc760594afa49a1c0137d5ce8a0 5813 unknown optional debtest_1.0-1_amd64.buildinfo
+ 4cfb937fb04ee56baa341276f0f020b4 4036 unknown optional debtest_1.0-1_amd64.deb

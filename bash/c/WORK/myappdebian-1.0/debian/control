@@ -1,0 +1,15 @@
+Source: myappdebian
+Section: unknown
+Priority: optional
+Maintainer: majd <majd@unknown>
+Build-Depends: debhelper-compat (= 12)
+Standards-Version: 4.4.1
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/myappdebian
+#Vcs-Git: https://salsa.debian.org/debian/myappdebian.git
+
+Package: myappdebian
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
