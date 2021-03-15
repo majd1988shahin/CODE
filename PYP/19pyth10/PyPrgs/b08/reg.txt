@@ -1,0 +1,21 @@
+PLZ 1 12345
+PLZ 0 12A45
+PLZ 0 1234
+Datum 0 1.2.1993
+Datum 1 01.02.1993
+EUR 1 123,20
+EUR 1 450.500.000
+EUR 0 123.300.00
+EUR 1 12 EUR
+EUR 0 12 E
+Tel 1 06142/898-601
+Tel 1 +49 6142 898-601
+Tel 0 +12 +34-43
+Tel 1 +12 34-43
+Tel 0 +12 3-43
+Tel 0 +1 6123--342
+Email 1 sekretariat@informationstechnik.hs-mannheim.de
+Email 1 p.barth@hs-mannheim.de
+Email 0 spam@at@de
+Email 1 susi-sinnlos@nowhere.de
+Email 0 rudi.ratlos@info

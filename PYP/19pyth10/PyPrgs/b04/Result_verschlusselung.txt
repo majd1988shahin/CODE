@@ -1,0 +1,2 @@
+ROT13 wurde im Usenet in den frühen 80er Jahren eingesetzt. Ziel war nicht die Verschlüsselung,
+sondern dass man nicht ungewollt eventuell “offensive” (beleidigende?) Texte lesen musste. Es war ein Tastendruck notwendig diese zu lesen
