@@ -20,7 +20,7 @@ a+	Open for reading and appending and create the file if it does not exist. The 
 --fputs		Write string of characters to file
 --feof		Detects end-of-file marker in a file
 */
-
+//in windows fullname = f , it is in the same directory
 #include<stdio.h>
 #include <unistd.h>
 #include"funks.h"
@@ -28,6 +28,7 @@ void open_close_file_test(char * f)
 {
 	FILE * fp;
 	//save_current_directory();
+
 	getcwd(cwd, sizeof(cwd));
 	char * fullName=concat(3,cwd,"/",f);
 	fp=fopen(fullName,"w");
@@ -36,7 +37,7 @@ void open_close_file_test(char * f)
 	else
 		printf("cannot open file\n");
 	fclose(fp);
-	
+
 }
 int read_file(char * f)
 {
@@ -49,7 +50,7 @@ int read_file(char * f)
    printf("-------------------\n");
   while (ch != EOF)
   {
-    /* To display the contents of the file on the screen */    
+    /* To display the contents of the file on the screen */
     putchar(ch);
     if(ch=='\n')
        lines++;
@@ -85,7 +86,7 @@ void read_data_from_file(char * f)
   fp=fopen(fullName, "r");
   char s1[20],s2[20];
   int n;
-/*reading 
+/*reading
 majd shahin 1988
 ola shahin 1990
 */
