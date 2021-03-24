@@ -1,5 +1,4 @@
-#include <fstream>
-#include<vector>
+#include "read_lines_from_file.h"
 std::vector<std::string> read_lines(std::string f)
 {
 	std::vector<std::string> res;
@@ -15,6 +14,7 @@ std::vector<std::string> read_lines(std::string f)
 
 		//std::cout << line << "\n";
 		res.push_back(line);
+		
 	}
 	return res;
 }

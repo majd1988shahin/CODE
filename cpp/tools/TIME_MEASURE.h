@@ -1,4 +1,5 @@
-
+#ifndef TIME_MEASURE
+#define TIME_MEASURE
 #include<iostream>
 #ifdef CHRONO
 #include <chrono>
@@ -18,3 +19,4 @@
 								                __t= ((double)(__t2-__t1))/CLOCKS_PER_SEC;\
 	                              std::cout<<"time_taken: "<<__t<<std::endl;
 #endif//CHRONO
+#endif //TIME_MEASURE
