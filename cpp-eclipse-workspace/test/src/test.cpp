@@ -1,38 +1,20 @@
 #include <iostream>
 #include <string>
-#include <cstring>
-#include <ctime>
-//void printA(int a[],int len);
-#include "tools/TIME_MEASURE.h"
-#include "tools/filesystem_apps.h"
-#include "tools/arrays.h"
-#include<unistd.h>
-#include <iomanip>
-#include <fstream>///!!!
-using namespace std;
-class A
-{
-private:
-	int n;
-public:
+#include <vector>
+//#include <memory>
+#include "tools/Storge.hpp"
 
-	A(int s){this->n=s;}
-	friend A& operator ++(A);
-	friend A& operator ++(A,int);
-};
-A& operator ++(A a){
-	a.n++;
-	cout<<"++A "<<a.n<<endl;
-}
-A& operator ++(A a,int){
-	a.n++;
-	cout<<"A++ "<<a.n<<endl;
 
-}
 int main()
 {
-	A a(3);
-	++a;
-	a++;
+	Storge<int> a(2);
+	cout<<sizeof(a)<<endl;
+	for(int i=0;i<100001;i++)
+		a.push(i);
+	a[3]=0;
+	cout<<a[3]<<endl;
+	cout<<sizeof(a)<<endl<<a.SIZE<<endl<<a.i;
+
+
 	return 0;
 }
