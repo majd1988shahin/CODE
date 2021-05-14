@@ -1,0 +1,11 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../../lib/modules/5.8.0-50-generic/build/include"
+		}
+	],
+	"settings": {}
+}

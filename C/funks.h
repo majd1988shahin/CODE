@@ -41,10 +41,6 @@ int size=string_seprate(str,sep,&sen);
 */
 int string_seprate(char * src,char* sep,char *** res);
 
-<<<<<<< HEAD
 ////multithreading
 void thread_test(void);
-=======
-
->>>>>>> aae3d75c1a846f0cfdcd8f3430173ed0d283b9de
 #endif

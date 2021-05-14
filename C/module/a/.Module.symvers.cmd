@@ -1,0 +1,1 @@
+cmd_/mnt/AC36685336682096/Code/C/module/a/Module.symvers := sed 's/ko$$/o/' /mnt/AC36685336682096/Code/C/module/a/modules.order | scripts/mod/modpost -m -a   -o /mnt/AC36685336682096/Code/C/module/a/Module.symvers -e -i Module.symvers   -T -

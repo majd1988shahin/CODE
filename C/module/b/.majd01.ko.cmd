@@ -1,0 +1,1 @@
+cmd_/mnt/AC36685336682096/Code/C/module/b/majd01.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /mnt/AC36685336682096/Code/C/module/b/majd01.ko /mnt/AC36685336682096/Code/C/module/b/majd01.o /mnt/AC36685336682096/Code/C/module/b/majd01.mod.o;  true
